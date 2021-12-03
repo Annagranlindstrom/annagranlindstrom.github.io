@@ -1,26 +1,12 @@
 
 body {
     color: black;
+    font-family: 'Dosis', sans-serif;
 }
 
-/* Fonts */
-p.cardText{
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-}
-
+/* Headings */
 h2{
     color:#378C82;
-}
-
-h3.ux{
-    margin-top: 1rem;
-}
-
-h3.aboutme{
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-
 }
 
 h4{
@@ -28,8 +14,35 @@ h4{
     margin-top: 2rem;
 }
 
+/* Home */
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #378C82!important;
+}
+
+.mb-5 {
+    margin-bottom: 2rem !important;
+    margin-top: 1rem; 
+}
+
+h3.ux{
+    margin-top: 1rem;
+}
+
+/* Portfolio - Cards */
+p.cardText{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
 h5.cardHeading{
     margin-bottom: 0.3rem;
+}
+
+/* About me */
+h3.aboutme{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
 /* Navbar */
@@ -37,20 +50,7 @@ h5.cardHeading{
     background-image: linear-gradient(#61ada4, #11332f) !important;
 }
 
-/* Name color */
-.text-primary {
-    --bs-text-opacity: 1;
-    color: #378C82!important;
-}
-
-/* Initial text */
-.mb-5 {
-    margin-bottom: 2rem !important;
-    margin-top: 1rem;
-    
-}
-
-/* Button-color */
+/* Buttons */
 .btn-primary {
     color: white;
     background-color:#378C82;
@@ -76,13 +76,14 @@ h5.cardHeading{
     box-shadow: none;
 }
 
+/* Icons */
 .social-icons .social-icon:hover {
     background-color: #378C82;
 }
 
 /* Modal */
 .modal-dialog{
-    max-width: 800px;
+    max-width: 900px;
 }
 
 /* Card */
@@ -92,11 +93,13 @@ h5.cardHeading{
 .prototypLink{
     text-decoration: none;
     color: rgb(10, 68, 57);
+    
 }
 
 .prototypLink:hover{
     text-decoration: none;
     color: #378C82;
+    
 }
 
 /* Contact-form */
@@ -110,4 +113,8 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
+
+ 
+
+ 
 
